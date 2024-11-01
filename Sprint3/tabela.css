@@ -1,0 +1,28 @@
+table {
+    margin: 2px 0;
+ 
+ }
+ 
+ th, td {
+    padding: 20px;
+    text-align: left;
+ }
+ 
+ th {
+    background-color: #c9dbf1; 
+    color: rgb(110, 162, 215);
+ }
+ 
+ h1{
+    color: #7fa4e0;
+    text-align: center;
+ }
+
+ button{
+    color: #1f5572;
+    background-color: rgb(134, 186, 210);
+    border: 2px solid #62a5ca;
+    border-radius:1ch;
+    padding: 8px;
+
+}

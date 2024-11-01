@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empréstimo</title>
+    <link rel="stylesheet" href="sprint.css">
+</head>
+
+<body>
+
+    <h1>Empréstimo de livros</h1>
+    <form action="emp.php" method="post">
+        <fieldset>
+            <h2>Dados do Livro</h2>
+
+            <label>Código do livro</label>
+            <input type="text" name="cl" placeholder="ISBN" maxlength="100" required>
+            <br><br>
+            <label>Data de Empréstimo</label>
+            <input type="date" name="de" required>
+            <br><br>
+            <label>Data de Devolução</label>
+            <input type="date" name="dd" required>
+            <br><br>
+            <label>Cliente</label>
+            <input type="text" name="c" placeholder="Id_Cliente" maxlength="100" required>
+            <br><br>
+
+            <button type="submit" class="botao">Concluir</button>
+
+        </fieldset>
+    </form>
+    <br><br><br><br><br><br><br><br>
+    <hr>
+    <a href="usuario2.html" class="button"><button id="posicao" class="botao">voltar</button></a>
+    </form>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+
+</html>
